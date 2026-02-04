@@ -1,0 +1,14 @@
+@charset "UTF-8";
+div {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+}
+/*para identificar uma pseudo-classe é necessário usar o sinal de dois pontos (:) após o seletor*/
+div:hover {
+    background-color: yellow;
+    
+}
